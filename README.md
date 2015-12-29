@@ -2,7 +2,7 @@
 
 [![NPM](https://nodei.co/npm/urlencode-for-php.png?downloads=true&stars=true)](https://www.npmjs.com/package/urlencode-for-php)
 
-```js
+```
 npm install urlencode-for-php --save
 ```
 
