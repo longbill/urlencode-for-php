@@ -2,13 +2,13 @@
 
 [![NPM](https://nodei.co/npm/urlencode-for-php.png?downloads=true&stars=true)](https://www.npmjs.com/package/urlencode-for-php)
 
-```
+```js
 npm install urlencode-for-php --save
 ```
 
 ## Usage
 
-```
+```js
 var urlencode = require('urlencode-for-php');
 
 var data = {a:[1,2,3,4]};
@@ -16,7 +16,7 @@ console.log( urlencode(obj) );
 // will output 'a[0]=1&a[1]=2&a[2]=3&a[3]=4'
 ```
 
-```
+```js
 var obj = 
 {
 	"a":"b", 
