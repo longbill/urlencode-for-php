@@ -1,0 +1,22 @@
+{
+  "name": "urlencode-for-php",
+  "version": "0.0.1",
+  "description": "encode object/array to php-like query string",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/longbill/urlencode-for-php.git"
+  },
+  "author": "Chunlong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/longbill/urlencode-for-php/issues"
+  },
+  "homepage": "https://github.com/longbill/urlencode-for-php",
+  "dependencies": {
+    "flat": "^1.6.0"
+  }
+}
