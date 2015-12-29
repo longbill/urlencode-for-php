@@ -1,10 +1,12 @@
-#PHP style query string encoder in Node.JS
+# PHP style query string encoder in Node.JS
+
+[![NPM](https://nodei.co/npm/urlencode-for-php.png?downloads=true&stars=true)](https://www.npmjs.com/package/urlencode-for-php)
 
 ```
 npm install urlencode-for-php --save
 ```
 
-##Usage
+## Usage
 
 ```
 var urlencode = require('urlencode-for-php');
@@ -29,5 +31,5 @@ console.log(urlencode(obj));
 // will output: 'a=b&c[0]=1&c[1]=2&c[2]=3&d[0][arr][0]=%2B-X%26%3F&d[0][arr][1]=2&d[1][arr][0]=3&d[1][arr][1]=4'
 ```
 
-##License
+## License
 MIT
