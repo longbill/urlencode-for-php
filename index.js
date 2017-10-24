@@ -8,6 +8,7 @@ function encode(obj)
 	var params = [];
 	for(var key in flatted)
 	{
+		if (typeof flatted[key] === 'object' && Object.keys(flatted[key]).length === 0) continue;
 		params.push( dot2brackets(key)+'='+encodeURIComponent(flatted[key]) );
 	}
 	return params.join('&');
