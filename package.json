@@ -1,6 +1,6 @@
 {
   "name": "urlencode-for-php",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "encode object/array to php-like query string",
   "main": "index.js",
   "scripts": {

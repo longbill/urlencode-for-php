@@ -1,17 +1,22 @@
-var urlencode = require('../');
+const urlencode = require('../');
 
-describe('urlencode-for-php', function()
-{
-	it('test1', function(done)
-	{
+describe('urlencode-for-php', function() {
+
+	it('test1', function(done) {
 		var obj = {a:[1,2,3,4]};
 		var expected = 'a[0]=1&a[1]=2&a[2]=3&a[3]=4';
 		if (urlencode(obj) != expected) throw "Error";
 		done();
 	});
 
-	it('test2', function(done)
-	{
+	it('test11', function(done) {
+		var obj = {a:[1,2,3,4], b:{}, c: [], d: null};
+		var expected = 'a[0]=1&a[1]=2&a[2]=3&a[3]=4';
+		console.log(urlencode(obj));
+		done();
+	});
+
+	it('test2', function(done) {
 		var obj = 
 		{
 			"a":"b", 
@@ -27,8 +32,7 @@ describe('urlencode-for-php', function()
 		done();
 	});
 
-	it('test3', function(done)
-	{
+	it('test3', function(done) {
 		var obj = 
 		{
 			"a":"b", 
